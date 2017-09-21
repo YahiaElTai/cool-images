@@ -1,0 +1,27 @@
+{
+  "name": "cool-images",
+  "version": "1.0.0",
+  "description": "simple tool to generate one or as many as you want cool good looking images with your desired dimensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YahiaElTai/cool-images.git"
+  },
+  "keywords": [
+    "cool",
+    "images",
+    "random",
+    "images",
+    "generate"
+  ],
+  "author": "Yahia El Tai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YahiaElTai/cool-images/issues"
+  },
+  "homepage": "https://github.com/YahiaElTai/cool-images#readme",
+  "devDependencies": {}
+}
