@@ -1,4 +1,5 @@
 # cool-images
+[![Build Status](https://travis-ci.org/YahiaElTai/cool-images.svg?branch=maste)](https://travis-ci.org/YahiaElTai/cool-images)
 
 Simple tool to generate one or as many as you want cool good looking images with your desired dimensions.
 
