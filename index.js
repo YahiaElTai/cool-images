@@ -43,16 +43,16 @@ module.exports =  (function() {
 
 		let num, oneUrl;
 		num = Math.floor(Math.random() * 1000);
-		oneUrl = `https://unsplash.it/${height}/${width}?image=${num}`;
+		oneUrl = `https://unsplash.it/${width}/${height}?image=${num}`;
 
 		if (grey) {
-			oneUrl = `https://unsplash.it/g/${height}/${width}?image=${num}`;
+			oneUrl = `https://unsplash.it/g/${width}/${height}?image=${num}`;
 		}
 		if (blur) {
-			oneUrl = `https://unsplash.it/${height}/${width}?image=${num}&blur`;
+			oneUrl = `https://unsplash.it/${width}/${height}?image=${num}&blur`;
 		}
 		if (blur && grey ) {
-			oneUrl = `https://unsplash.it/g/${height}/${width}?image=${num}&blur`;
+			oneUrl = `https://unsplash.it/g/${width}/${height}?image=${num}&blur`;
 		}
 		return oneUrl;
 	}

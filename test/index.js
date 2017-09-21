@@ -15,7 +15,7 @@ describe('one() method test', function() {
 		expect(coolImages.one(700,700)).to.include('/700/700');
 	});
 	it('should return a black and white image url', function() {
-		expect(coolImages.one(500,400,true)).to.include('/g/500/400');
+		expect(coolImages.one(500,400,true)).to.include('/g/400/500');
 	});
 	it('should return a blured image url', function() {
 		expect(coolImages.one(500,400,false, true)).to.include('&blur');
@@ -44,8 +44,8 @@ describe('many() method test', function() {
 	it('should return valid image urls', function() {
 		// Valid image urls
 		expect(arr[0]).to.include('http');
-		expect(arr[1]).to.include('/500/400');
-		expect(arr[2]).to.include('/g/500/400');
+		expect(arr[1]).to.include('/400/500');
+		expect(arr[2]).to.include('/g/400/500');
 		expect(arr[3]).to.include('&blur');
 	});
 	it('should return unique image urls', function() {
