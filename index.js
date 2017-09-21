@@ -8,6 +8,9 @@ module.exports =  (function() {
 	}
 
 	function many(height = 300, width = 500, number = 6, grey = false, blur = false) {
+		if (typeof number !== 'number' || Number.isNaN(number)) {
+		  throw new Error('NaN error')
+		}
 		let arr = [];
 		const urlStyle = random(height, width, grey, blur);
 		const id = urlStyle.split('=');
@@ -25,6 +28,19 @@ module.exports =  (function() {
 	// Utility functions
 	// =============================================================================
 	function random(height = 300, width = 500, grey = false, blur = false) {
+		if (
+			(typeof height !== 'number' || Number.isNaN(height)) ||
+			(typeof width !== 'number' || Number.isNaN(width))
+			) {
+		  throw new Error('NaN error')
+		}
+		if (
+			(typeof grey !== 'boolean') ||
+			(typeof blur !== 'boolean')
+			) {
+		  throw new Error('bool is required!')
+		}
+
 		let num, oneUrl;
 		num = Math.floor(Math.random() * 1000);
 		oneUrl = `https://unsplash.it/${height}/${width}?image=${num}`;
