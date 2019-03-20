@@ -1,6 +1,6 @@
 {
   "name": "cool-images",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple tool to generate one or as many as you want cool good looking images with your desired dimensions",
   "main": "index.js",
   "scripts": {
