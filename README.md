@@ -1,6 +1,6 @@
 # cool-images
 
-[![Build Status](https://travis-ci.org/YahiaElTai/cool-images.svg?branch=master)](https://travis-ci.org/YahiaElTai/cool-images)
+[![Build Status](https://travis-ci.org/YahiaElTai/cool-images.svg?branch=master)](https://travis-ci.org/YahiaElTai/cool-images) [![dependencies Status](https://david-dm.org/YahiaElTai/cool-images/status.svg)](https://david-dm.org/YahiaElTai/cool-images) [![devDependencies Status](https://david-dm.org/YahiaElTai/cool-images/dev-status.svg)](https://david-dm.org/YahiaElTai/cool-images?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Simple tool to generate one or as many as you want cool good looking images with your desired dimensions.
 
